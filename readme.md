@@ -20,7 +20,17 @@ VoxAssist is a voice-enabled AI assistant that listens, thinks, and responds nat
 3. Gemini generates a response
 4. VoxAssist speaks the answer back
 
+   VoxAssist/
+├── backend/
+│   ├── main.py
+│   ├── vvv.py
+│   ├── voice.py
+│   ├── config.py
+│   ├── requirements.txt
+│   └── .env    
+
 ## ▶️ Run Locally
 ```bash
 pip install -r requirements.txt
 py main.py
+
